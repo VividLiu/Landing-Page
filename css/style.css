@@ -1,0 +1,42 @@
+body{
+	background-color: LightGray;
+}
+
+div{
+	border: 1px solid chocolate;
+}
+
+/**/
+.header{
+	height: 5em;
+	padding-top: 1em;
+}
+.logo{
+	width: 30%;
+}
+.logo img{
+	height: 2.5em;
+	width: 27px;
+}
+.navBar{
+	float: right;
+	width: 60%;
+}
+.navBar li{
+	display: inline;
+	padding-right: 1em; 
+}
+
+/**/
+.mainBg{
+	height:500px;
+}
+
+/**/
+.mainCt{
+	height: 400px;
+}
+/**/
+.footer{
+	height: 300px;
+}
