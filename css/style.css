@@ -14,16 +14,23 @@ a{
 
 a:hover{
 	color: #202020;
+	cursor: pointer;
+}
+.active{
+	color: #4c5058;
+	font-weight: 500;
 }
 
 /*header section styles*/
 .header{
 	height: 5em;
+	width: 60em;
+	margin: 0 auto;
 }
 .logo{
 	float: left;
 	height: 2.5em;
-	width: 30%;
+	width: 35%;
 	margin-top: 20px;
 }
 .logo img{
@@ -42,7 +49,7 @@ a:hover{
 }
 .navBar ul{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 0.625em;
 }
 .navBar li{
 	display: inline;
@@ -52,9 +59,34 @@ a:hover{
 
 /**/
 .mainBg{
-	height:500px;
+	height:31.25em;
+	background-image: url("../image/background.jpg");
+	background-size: cover;
 }
-
+.mainBg div{
+	width: 30em;
+	/*height: 10em;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10em;
+}
+.mainBg h1, .mainBg p{
+	color: white;
+	text-align: center;
+}
+.mainBg h1{
+	font-size: 3em;
+	font-weight: 300; 
+	margin-bottom: -0.5em;
+}
+.mainBg p{
+	font-size: 1.5em;
+	font-weight: 300; 
+}
+.mainBg button{
+	display: block;
+	margin:0 auto; 
+}
 /**/
 .mainCt{
 	height: 400px;
