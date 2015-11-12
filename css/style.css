@@ -1,30 +1,53 @@
 body{
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
 }
 
 div{
 	border: 1px solid chocolate;
 }
 
-/**/
+a{
+	color:  #707070;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #202020;
+}
+
+/*header section styles*/
 .header{
 	height: 5em;
-	padding-top: 1em;
 }
 .logo{
+	float: left;
+	height: 2.5em;
 	width: 30%;
+	margin-top: 20px;
 }
 .logo img{
-	height: 2.5em;
-	width: 27px;
+	height: inherit;
+/*	text-align: center;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .navBar{
 	float: right;
+	height: 2.5em;
 	width: 60%;
+	margin-top: 20px;
+	font-size: 1.1em;
+}
+.navBar ul{
+	text-align: center;
+	margin-top: 10px;
 }
 .navBar li{
 	display: inline;
-	padding-right: 1em; 
+	padding-right: 1em;
+
 }
 
 /**/
