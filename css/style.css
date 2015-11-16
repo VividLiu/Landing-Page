@@ -85,7 +85,16 @@ a:hover{
 }
 .mainBg button{
 	display: block;
-	margin:0 auto; 
+	margin:0 auto;
+}
+.bigButton{
+	color:white;
+	font-size: 1.15rem;
+	border-style: none;
+	border-radius: 6px;
+	padding: 1rem 2rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
 }
 /**/
 .mainCt{
@@ -95,3 +104,4 @@ a:hover{
 .footer{
 	height: 300px;
 }
+
