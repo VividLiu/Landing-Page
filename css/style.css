@@ -21,6 +21,12 @@ a:hover{
 	font-weight: 500;
 }
 
+.centerBlock{
+	width: 60em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*header section styles*/
 .header{
 	height: 5em;
@@ -54,20 +60,16 @@ a:hover{
 .navBar li{
 	display: inline;
 	padding-right: 1em;
-
 }
 
-/**/
+/*Image background section*/
 .mainBg{
 	height:31.25em;
 	background-image: url("../image/background.jpg");
 	background-size: cover;
 }
+
 .mainBg div{
-	width: 30em;
-	/*height: 10em;*/
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 10em;
 }
 .mainBg h1, .mainBg p{
@@ -96,9 +98,34 @@ a:hover{
 	background-color: #f15a29;
 	border-color: #f15a29;
 }
-/**/
+
+/*main content section*/
 .mainCt{
 	height: 400px;
+}
+
+.mainCt div{
+	margin-top: 1rem;
+}
+.mainCt h1{
+	font-size: 2.5rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.mainCt ul{
+	text-align: center;
+}
+.mainCt li{
+	vertical-align: top;
+	width: 8rem;
+	height: 13rem;
+	padding: 0 2.5rem;
+	display: inline-block;
+}
+.mainCt li p{
+	font-size: 1.25rem;
+	font-weight: 400;
 }
 /**/
 .footer{
