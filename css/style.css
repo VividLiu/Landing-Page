@@ -32,6 +32,10 @@ a:hover{
 	height: 5em;
 	width: 60em;
 	margin: 0 auto;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	background-color: LightGray;
 }
 .logo{
 	float: left;
